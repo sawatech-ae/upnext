@@ -11,7 +11,7 @@ import os
 from datetime import datetime
 
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", "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"))
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", "null"))
 app = FastAPI()
 
 UPLOAD_DIR = "data"
